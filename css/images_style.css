@@ -1,0 +1,29 @@
+/*styles for images*/
+
+.avatar-flex {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.avatar-flex img {
+	 width: 240px;
+  height: 270px;
+}
+.avatar-border {
+  border: 2px solid white;
+}
+
+@media (max-width: 999px) {
+  .avatar-border{
+    height: 450px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 600px) {
+  .avatar-border{
+    height: 250px;
+    height: 250px;
+  }
+}

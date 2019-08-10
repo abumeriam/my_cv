@@ -1,0 +1,101 @@
+/*font styles*/
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.text-block {
+  margin: 20px 20px 20px 35px;
+}
+
+.common-text {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.main-header-font {
+  letter-spacing: 1px;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.main-header-subtitle {
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.headers {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+}
+
+.r-col-header {
+  border-bottom: 1px solid #bdbdbd;
+  border-top: 1px solid #bdbdbd;
+  font-size: 22px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.r-col-head-text {
+  font-size: 1.2em;
+}
+
+/*Formatting*/
+
+.bold {
+  font-weight: bold;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.margin-top {
+  margin-top: 25px;
+}
+
+.white-link:link, .white-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.white-link:visited {
+  color: #d8ffff;
+  text-decoration: underline;
+}
+
+.line-height {
+  line-height: 1.5em;
+}
+
+ul {
+  list-style-type: square;
+}
+
+/*Colors*/
+
+.white-font {
+  color: white;
+}
+
+.black-font {
+  color: #000000;
+}
+
+.blue-font {
+  color: #267187;
+}
+
+/*================MEDIA==================*/
+
+@media (max-width: 999px) {
+ .r-col-header {
+   padding-left: 20px;
+ }
+}
