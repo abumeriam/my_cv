@@ -33,6 +33,18 @@
   background: #267187;
 }
 
+.tof a{
+	padding-left:20px;
+}
+
+.mycv{
+	
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+
 /*================MEDIA==================*/
 
 @media (max-width: 999px) {
